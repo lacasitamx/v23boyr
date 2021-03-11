@@ -1015,21 +1015,21 @@ esac
 clear
 while :; do
 	echo
-	echo "........... V2Ray 一键安装脚本 & 管理脚本 by 233v2.com .........."
+	echo "........... Script de instalación y gestión de V2Ray con un solo clic de 233v2.com .........."
 	echo
-	echo "帮助说明: https://233v2.com/post/1/"
+	echo "Descripción de la ayuda: https://233v2.com/post/1/"
 	echo
-	echo "搭建教程: https://233v2.com/post/2/"
+	echo "Tutorial de construcción: https://233v2.com/post/2/"
 	echo
-	echo " 1. 安装"
+	echo " 1. INICIAR INSTALACION V2RAY"
 	echo
-	echo " 2. 卸载"
+	echo " 2. DESINSTALAR V2RAY"
 	echo
 	if [[ $local_install ]]; then
-		echo -e "$yellow 温馨提示.. 本地安装已启用 ..$none"
+		echo -e "$yellow Recordatorio: la instalación local está habilitada.$none"
 		echo
 	fi
-	read -p "$(echo -e "请选择 [${magenta}1-2$none]:")" choose
+	read -p "$(echo -e "Selecione Una Opcion [${magenta}1-2$none]:")" choose
 	case $choose in
 	1)
 		install
